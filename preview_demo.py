@@ -1,16 +1,4 @@
-(cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF'
-diff --git a/preview_demo.py b/preview_demo.py
---- a/preview_demo.py
-+++ b/preview_demo.py
-@@ -0,0 +1,324 @@
-+"""
-+LifePilot AI Agent - Demo Preview
-+=================================
-+
-+This is a standalone demo version that shows the LifePilot interface
-+with sample data. No API keys or setup required for preview.
-+"""
-+
+
 +import streamlit as st
 +import pandas as pd
 +from datetime import datetime, timedelta
